@@ -1,24 +1,23 @@
 # Requisitos-Previos
 
-Instalar python 3.8 o superior en to computadora:
+### Instalar python 3.8 o superior en tu computadora:
 
 * Windows: https://www.python.org/downloads/release/python-395/
 * Mac OS X: https://www.python.org/downloads/release/python-395/
 * Linux: Porfavor mire a lost documentos de tu distro (on Debian/Ubuntu `sudo apt get install python3` esto deberia funcionar)
 
-Instalar a pip:
+### Instalar a pip:
 
 Descargar este scrip: [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
-Correr (Quizas vas a necesitar a specificar la version de `python3` si tambien tienes a `python2` instalado)
-
+### Correr:
 ```sh
 $ python get-pip.py
 ```
+Nota: `(Quizas vas a necesitar a specificar la version de `python3` si tambien tienes a `python2` instalado)`
 
-Instalar git:
-
-https://git-scm.com/downloads
+### Instalar git:
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 Instalar [virtualenv](https://rukbottoland.com/blog/tutorial-de-python-virtualenv/)
 
