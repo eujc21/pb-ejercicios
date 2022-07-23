@@ -1,14 +1,14 @@
 # Requisitos-Previos
 
-Installar python 3.8 o superior en to computadora:
+Instalar python 3.8 o superior en to computadora:
 
 * Windows: https://www.python.org/downloads/release/python-395/
 * Mac OS X: https://www.python.org/downloads/release/python-395/
 * Linux: Porfavor mire a lost documentos de tu distro (on Debian/Ubuntu `sudo apt get install python3` esto deberia funcionar)
 
-Install a pip:
+Instalar a pip:
 
-Descargar este scrip: https://bootstrap.pypa.io/get-pip.py
+Descargar este scrip: [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
 Correr (Quizas vas a necesitar a specificar la version de `python3` si tambien tienes a `python2` instalado)
 
@@ -34,13 +34,13 @@ Instalar [virtualenv](https://rukbottoland.com/blog/tutorial-de-python-virtualen
     $ virtualenv -p python3 .venv
 ```
 
-Linux/OSX:
+### Linux/OSX:
 
 ```sh
     $ . .venv/bin/activate
     (.venv) $ pip install -r requirements.txt
 ```
-Windows:
+### Windows:
 ```sh
     > .venv\Scripts\activate.bat
     > pip install -r requirements.txt
